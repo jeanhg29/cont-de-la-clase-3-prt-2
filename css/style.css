@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap');
+/*vinculacion a la fuente de google import*/
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap')*/
+
+
+:root {
+    --color1: #4C4A59;
+    --color2: #1B7F7A;
+    --color3: #0897B4;
+    --color4: #4CABA6;
+    --color5: #F2CDAC;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --color-gris-claro: #CCCCCC;
+    --color-gris-oscuro: #333333;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-family: "Jost", sans-serif;/* font-family:"Jost", 200, 400, 900 -  el tipo de letra Jost con los estilos 200,400,700 y 900.*/
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        
+    }
+    
+    img {
+        display: block;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1 {
+        font-size: 64px;
+        font-weight: 200;
+        letter-spacing: -4px;
+    }
+    
+    h2 {
+        font-size: 36px;
+        font-weight: 900;
+        letter-spacing: -2px;
+        margin-bottom: 20px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+
+    #top-header{/*agregar*/
+
+        background-color: var(--color5);
+        color: var(--color-negro);
+        padding: 10px 0;
+    }
+    #nuestros-valores {
+        background-color: var(--color2);
+        color: var(--color-negro);
+    }
+    
+    #historia {
+        background-color: var(--color1);
+        color: var(--color-blanco);
+    }
+    
+    #empresa {
+        background-color: var(--color4);
+    }
+    
+    #main-footer {
+        background-color: var(--color-gris-claro);
+        color: var(--color-negro);
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+    .padded {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+    
+    .container {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .row {
+        display: flex;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    
+    .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+    
+    .centrado-vertical {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .col1 {
+        text-align: center;
+    }
+    
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .image-row {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .img {
+            width: 40%;
+            height: auto;
+            object-fit: cover;
+        }
+        
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        
+        .image-column {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-right: 20px;
+        }
+        
+        .image-row {
+            display: flex;
+            align-items: flex-end;
+        }
+        
+        .image-container img {
+            height: auto;
+            margin-bottom: 10px;
+        }
+        
+        .fila {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        
+        #main-banner{
+
+            position: relative;
+        }
+
+        #main-banner-leyenda{
+
+            position: absolute;
+            bottom: -60px;
+            background-color: var(--color5);
+            color: var(--color-negro);
+            width: 50%;
+            left: 25%;
+            padding: 30px;/*FIJARSE SIEMPRE LOS SIGNOS (PX, %, -,+,.)*/
+            box-sizing: border-box;
+        }
+
+
+        .sede {
+            flex-basis: 45%;
+            display: flex;
+        }
+        
+        #sedes{
+          
+            background-color: var(--color3);
+            color: var(--color-negro);
+        }
+        
+        #sedes .row{
+           
+            margin-bottom: 30px;
+        }
+    
+
+        .sede-foto{
+            position: relative;
+
+        }
+
+        .sede-foto-leyenda{
+            position: absolute;
+            background-color: var(--color-negro);
+            color: var(--color-blanco);
+            top: 0;
+            right: 0;
+            padding: 5px 10px;
+
+        }
+
+        #nuestros-valores4 {
+            background-color: var(--color5);
+        }
+        
+        #nuestros-valores5 {
+            background-color: var(--color4);
+        }
+
+
+        #oficinas img {
+
+            margin-bottom: 30px;
+        }
+
+        #oficinas{
+            background-color: var(--color1);
+            color: var(--color-blanco);
+
+        }
+        
+        #conferencias{
+            background-color: var(--color5);
+            color: var(--color-negro);
+
+        }
+
+        .container2 {
+            display: flex;
+            justify-content: space-between;
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: var(--color1);
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .text-section2 {
+            width: 50%;
+        }
+        
+        .image-section2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .img2 {
+            width: 100%;
+            height: auto;
+        }
+        
+        .container6 {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: var(--color4);
+        }
+        
+        .text6 {
+            text-align: right;
+        }
+        
+#conferencia0{
+    background-color: var(--color3);
+}
+
+
+#nuestros-valores7{
+    background-color: var(--color3);
+    color: var(--color-negro);
+}
+
+.container3 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#encabezado {
+    background-color: var(--color5);
+    font-family: "Jost" 200, 400, 900;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.col{
+    flex-basis: 0;
+    flex-grow: 1;
+    /* Ambas propiedades con esos valores es para que tengan el mismo ancho*/
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;/*para que el padding no incremente el ancho(en este caso)*/
+}
+
+.col-50{
+    flex-basis: 50%;
+    max-width: 50%;
+
+}
+.col-66{
+    flex-basis: 66.66%;
+    max-width: 66.66%;
+
+}
+
+.col-75{
+    flex-basis: 75%;
+    max-width: 75%;
+
+}
+
+.col-33{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+
+.col-40{
+    flex-basis: 40%;/* para que ocuape el 40% del ancho ( flex-basis , max-width) */
+    max-width: 40%;
+}
+
+
+#presentacion{
+
+    background-color: var(--color1);
+    color: var(--color-blanco);
+}
+
+#presentacion img{
+
+    margin-top: -30px;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+.centrado-vertical{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#proyectos img{
+    margin-bottom: 20px;
+
+}
+
+.card{
+    background-color: var(--color-blanco);
+    border: solid 1px #CCCCCC;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-text{
+    padding: 30px;
+    
+}
+
+#clientes{
+    background-color: var(--color4);
+        
+    }
+
+#clientes .row{
+    margin-bottom: 10px;/* para que halla tanto separacion entre imagenes*/
+
+}
+
+#ejecutivos{
+    background-color: var(--color5);
+
+    }
+
+#ejecutivos .row{
+
+    margin-bottom: 30px;
+}
+
+#botton-footer{
+
+    background-color: var(--color-gris-oscuro);
+    color: var(--color-blanco);
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.card-h{
+    display: flex;
+    
+}
+
+#explorar{
+    background-color: var(--color3);
+        
+}
+
+.semicirculo-1{
+
+    border-radius: 100% 0 0 0;
+}
+
+.semicirculo-2{
+
+    border-radius:  0 100% 0 0;
+}
+
+.semicirculo-3{
+
+    border-radius:  0 0 100% 0;
+}
+
+.semicirculo-4{
+
+    border-radius: 0 0 0 100%;
+}
+
+.fila-semicirculo .col{/* para que halla tanto separacion entre imagenes*/
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
